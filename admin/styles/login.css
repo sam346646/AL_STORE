@@ -1,0 +1,26 @@
+body{
+    background-image: url('login_background.jpg');
+   
+    background-size:auto;
+}
+.login-form{
+    width: 320px;
+    height: 300px;
+    position:absolute;
+    top:60%;
+    left:45%;
+    padding-bottom: 0px;
+    padding:20px;
+    margin-left:-100px;
+    margin-top:-300px;
+
+    backdrop-filter: blur(7px);
+    border:1px inset black;
+    border-radius:5px;
+    color:rgb(132, 128, 128);
+}
+@media (max-width: 700px){
+    .login-form{
+        left: 35%;
+}
+}

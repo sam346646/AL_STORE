@@ -1,0 +1,54 @@
+/* My styles */
+*{
+    font-family: Georgia;
+}
+.bg_sam_menu{
+    background-color: #555;
+}
+.bg_sam_container{
+    background-color: #f0f0f0;
+}
+.text_sam_menu{
+    color:#969696;
+}
+.menu_option_right_align{
+    align-content: flex-end;
+    align-items: flex-end;
+}
+.font_num{
+    font-family: 'Times New Roman';
+}
+
+
+
+/*Home navigation bar styles */
+.main_menu>li:hover,.main_menu>li>a:hover,.main_menu>.main_menu_active>a{
+    background-color:#198754;
+    border-left: 1px solid #555;
+    color:white;
+}
+.main_menu>li>a{
+    color:#969696;
+}
+.main_menu{
+    position: relative;
+}
+.main_menu>#my_dropdown{
+    position: absolute;
+    right:5px;
+    background-color: #555;
+    border-radius: 3px;
+    padding-bottom: 3px;
+}
+@media(max-width: 600px){
+	.main_menu>#my_dropdown{
+        position: relative;
+    }
+}
+.main_menu>#my_dropdown>#suggestion>.search{
+    text-decoration: none;
+    color:#969696;
+}
+.main_menu>#my_dropdown>#suggestion>.search:hover{
+    color:#bcbcbc;
+}
